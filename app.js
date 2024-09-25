@@ -15,7 +15,7 @@ const nodb = new Nodb({
   baseUrl: "https://nodb-demo.fly.dev",
 });
 
-const filePath = path.resolve(__dirname, "resume__Marko_Jakic.pdf");
+const filePath = path.resolve(__dirname, "my.pdf");
 form.append("file", fs.createReadStream(filePath), {
   contentType: "application/pdf",
 });

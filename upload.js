@@ -7,7 +7,7 @@ export const uploadFile = async (filePath, apiKey) => {
     {
       method: "POST",
       headers: {
-        accept: "application/json",
+        Accept: "application/json",
         Authorization: `Bearer ${apiKey}`,
       },
       body: formData,
